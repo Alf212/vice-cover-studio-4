@@ -38,3 +38,9 @@ writeFileSync(
     app_path_max_bytes: 1000,
   }),
 );
+
+// Vice Cover Studio hands in a multi-panel cover maker: app/ holds the
+// offline editor (panels, grades, Anton cover lettering) and screenshots/
+// shows the covers it exports. The three screenshots are the square cover,
+// the editor with a photo loaded, and a hero-layout cover.
+console.log('Vice Cover Studio entry written to ' + out + ' (app + 3 screenshots + dossier.json)');
